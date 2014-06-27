@@ -18,10 +18,10 @@
     timeSinceObstacle +=delta;
     
     //check if 2 seconds has passed to add objstacle
-    if(timeSinceObstacle>2.0f){
+    if(timeSinceObstacle>2.0f)
         [self addObstacle];
-        timeSinceObstacle=0.0f;
-    }
+
+    timeSinceObstacle=0.0f;
 
 }
 
